@@ -2,6 +2,29 @@ import React from "react";
 import Header from "../components/common/Header";
 import Footer from "../components/common/Footer";
 function About() {
+    const services = [
+        {
+          icon: "../../../aboutPage/babysitting2.png",
+          title: "BABY SITTING",
+          description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, accusamus cum similique repellendus doloremque sint iusto veritatis."
+        },
+        {
+          icon: "../../../aboutPage/cleaningIcon.png",
+          title: "MENAGE",
+          description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, accusamus cum similique repellendus doloremque sint iusto veritatis."
+        },
+        {
+          icon: "../../../aboutPage/old-man.png",
+          title: "AIDE A LA PERSONNE",
+          description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, accusamus cum similique repellendus doloremque sint iusto veritatis."
+        },
+        {
+          icon: "../../../aboutPage/teacher.png",
+          title: "SOUTIEN SCOLAIRE",
+          description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, accusamus cum similique repellendus doloremque sint iusto veritatis."
+        }
+      ]
+    
     return (
         <div className="">
             {/* <Header /> */}
@@ -71,104 +94,60 @@ function About() {
                     </div>
                 </div>
             </section>
-            <section className="mx-5 md:mx-10 ">
-                <span className="block  text-lg  text-[#FF5C1A] text-center md:text-3xl font-semibold text-primary">
-                    What We Offer
-                </span>
-                <div className=" w-full  flex flex-col gap-10 md:gap-20 mt-3">
-                    <div className="  mx-auto  w-full md:w-3/4 lg:w-1/2 rounded-3xl p-10 shadow-md ">
-                        <p className=" md:text-center">
-                            we offer a comprehensive range of services tailored to meet your
-                            needs. Whether you're seeking reliable babysitting services for your
-                            little ones, dedicated home schooling assistance to support your
-                            child's education, compassionate care giver services for elderly
-                            family members, or efficient housekeeping solutions to keep your
-                            home tidy and organized, we've got you covered. Our team is
-                            committed to delivering top-quality service with professionalism and
-                            care, ensuring peace of mind for all our clients.
-                        </p>
+            <section className=" px-6 md:px-10 bg-white max-w-7xl mx-auto">
+      <h2 className="text-2xl md:text-3xl font-bold text-[#FF5C1A] text-center mb-6">
+        What We Offer
+      </h2>
+      
+      <div className="max-w-3xl mx-auto mb-16 bg-white rounded-lg shadow-md p-8 border-l-4 border-[#20B486]">
+        <p className="text-gray-700 leading-relaxed text-center">
+          We offer a comprehensive range of services tailored to meet your
+          needs. Whether you're seeking reliable babysitting services for your
+          little ones, dedicated home schooling assistance to support your
+          child's education, compassionate care giver services for elderly
+          family members, or efficient housekeeping solutions to keep your
+          home tidy and organized, we've got you covered. Our team is
+          committed to delivering top-quality service with professionalism and
+          care, ensuring peace of mind for all our clients.
+        </p>
+      </div>
 
-                    </div>
-
-                    <div className="grid gap-6 md:gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-                        <div className=" rounded-3xl shadow-2xl  bg-green-50">
-                            <img
-                                className=" w-14  h-14  mx-auto"
-                                src="../../../aboutPage/babysitting2.png"
-                                alt=""
-                            />
-                            <h2 className="text-center mt-9 font-semibold text-lg text-[#20B486] ">BABY SITTING</h2>
-
-                            <p className="mx-auto  p-9">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Veniam, neque. Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Aliquid, accusamus cum similique repellendus
-                                doloremque sint iusto veritatis. Iusto tempora officiis corporis
-                                cumque, sunt corrupti itaque excepturi harum minima,
-                                exercitationem distinctio!
-                            </p>
-                        </div>
-                        <div className=" rounded-3xl shadow-2xl  bg-green-50">
-
-                            <img
-                                className=" w-14  h-14  mx-auto"
-                                src="../../../aboutPage/cleaningIcon.png"
-                                alt=""
-                            />
-                            <h2 className="text-center mt-9 font-semibold text-lg text-[#20B486] ">MENAGE</h2>
-
-                            <p className="mx-auto  p-9">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Veniam, neque. Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Aliquid, accusamus cum similique repellendus
-                                doloremque sint iusto veritatis. Iusto tempora officiis corporis
-                                cumque, sunt corrupti itaque excepturi harum minima,
-                                exercitationem distinctio!
-                            </p>
-                        </div>
-                        <div className=" rounded-3xl shadow-2xl  bg-green-50">
-
-                            <img
-                                className=" w-14  h-14  mx-auto"
-                                src="../../../aboutPage/old-man.png"
-                                alt=""
-                            />
-                            <h2 className="text-center mt-9 font-semibold text-lg text-[#20B486] ">AIDE A LA PERSONNE </h2>
-
-                            <p className="mx-auto  p-9">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Veniam, neque. Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Aliquid, accusamus cum similique repellendus
-                                doloremque sint iusto veritatis. Iusto tempora officiis corporis
-                                cumque, sunt corrupti itaque excepturi harum minima,
-                                exercitationem distinctio!
-                            </p>
-                        </div>
-                        <div className=" rounded-3xl shadow-2xl  bg-green-50">
-
-                            <img
-                                className=" w-14  h-14  mx-auto"
-                                src="../../../aboutPage/teacher.png"
-                                alt=""
-                            />
-                            <h2 className="text-center mt-9 font-semibold text-lg text-[#20B486] ">SOUTIEN SCOLAIRE</h2>
-
-                            <p className="mx-auto  p-9">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Veniam, neque. Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Aliquid, accusamus cum similique repellendus
-                                doloremque sint iusto veritatis. Iusto tempora officiis corporis
-                                cumque, sunt corrupti itaque excepturi harum minima,
-                                exercitationem distinctio!
-                            </p>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </section>
-
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        {services.map((service, index) => (
+          <div 
+            key={index} 
+            className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col"
+          >
+            <div className="p-6  flex items-center justify-center">
+              <img
+                className="w-16 h-16 object-contain"
+                src={service.icon}
+                alt={service.title}
+              />
+            </div>
+            <div className="p-6 flex-grow flex flex-col">
+              <h3 className="text-center mb-4 font-semibold text-lg text-[#20B486]">
+                {service.title}
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed flex-grow">
+                {service.description}
+              </p>
+              <div className="mt-4 text-center">
+                <a 
+                  href="#" 
+                  className="inline-flex items-center text-[#FF5C1A] hover:text-[#e5511a] font-medium text-sm"
+                >
+                  Learn more
+                  <svg className="w-4 h-4 ml-1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
             {/* <section className="text-gray-700 body-font mt-10">
             <div className="flex justify-center text-3xl font-bold text-gray-800 text-center"> */}
 

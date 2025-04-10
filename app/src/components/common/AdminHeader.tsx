@@ -1,13 +1,13 @@
 import React from 'react';
 import { Button } from "../../../@/components/ui/button";
-
+import logo from "../../../public/FBLASTK.svg"
 export default function AdminHeader() {
   return (
     <header className="bg-white dark:bg-gray-950 py-4 md:py-6 lg:py-2 border-b border-gray-200 dark:border-gray-800">
       <div className="container px-4 md:px-6 flex items-center justify-between">
         <div className="flex items-center gap-4">
           <a className="flex items-center gap-2" href="#">
-            <MountainIcon className="w-6 h-6" />
+            {/* <MountainIcon className="w-6 h-6" /> */}
             <span className="text-xl font-bold">F'Blastek</span>
           </a>
         </div>

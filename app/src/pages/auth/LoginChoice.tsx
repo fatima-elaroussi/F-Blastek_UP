@@ -21,7 +21,7 @@ export default function LoginChoice() {
                         </Link>
                         <Link
                             className="inline-flex items-center justify-center w-full h-10 px-6 text-sm font-medium transition-colors bg-[#20B486] border text-gray-50 border-gray-200 rounded-md shadow-sm hover:bg-[#36a683] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 "
-                            to={"/user/login"}
+                            to={"/login/client"}
                         >
                             Sign in as Client
                         </Link>

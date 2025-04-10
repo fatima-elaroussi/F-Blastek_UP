@@ -26,6 +26,8 @@ import Contact from "../pages/help/Contact.tsx";
 import InterestSelectionPage from "../pages/register/InterestSelectionPage.tsx";
 import ProfessionalRegister from "../pages/register/ProfessionalRegister.tsx";
 import ProfessionalLoginPage from "../pages/auth/professional/ProfessionalLoginPage.tsx";
+import ClientLoginForm from "../components/Login/ClientLoginForm.tsx";
+import ClientLoginPage from "../pages/auth/client/ClientLoginPage.tsx"
 import ProfessionalLayout from "../layouts/ProfessionalLayout.tsx";
 import ProfessionalDashboard from "../pages/professionalsDashboard/ProfessionalDashboard.tsx";
 import LoginChoice from "../pages/auth/LoginChoice.tsx";
@@ -144,6 +146,10 @@ const router = createBrowserRouter([
       {
         path: "login/applicant",
         element: <ProfessionalLoginPage />,
+      },
+      {
+        path: "login/client",
+        element: <ClientLoginPage />,
       },
       {
         path: "register/applicant/map",
