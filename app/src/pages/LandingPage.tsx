@@ -8,7 +8,7 @@ function LandingPage() {
   // const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
-    <div>
+    <div className="overflow-x-hidden w-full">
 
        {/* <Header />
         {mobileMenu && <MobileHeader />}

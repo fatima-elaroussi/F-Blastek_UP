@@ -1,5 +1,5 @@
-import React from 'react';
-import { Carousel } from 'antd';
+import React from "react";
+import { Carousel } from "antd";
 import {
   Card,
   CardHeader,
@@ -9,7 +9,7 @@ import {
   Avatar,
   Tooltip,
 } from "@material-tailwind/react";
-import '../components/common/carousel.css';
+import "../components/common/carousel.css";
 import { LuGauge } from "react-icons/lu";
 import { RiSecurePaymentLine } from "react-icons/ri";
 import { TfiSupport } from "react-icons/tfi";
@@ -47,7 +47,9 @@ const ServiceLayout: React.FC = () => {
           </div>
           <div className="flex-1 space-y-6 max-w-md">
             <div className="space-y-4">
-              <h1 className="text-3xl font-bold text-orange-500">Service de Garde d'Enfants</h1>
+              <h1 className="text-3xl font-bold text-orange-500">
+                Service de Garde d'Enfants
+              </h1>
               <p className="text-gray-500 dark:text-gray-400 text-lg">
                 Profitez d'un service de garde d'enfants de haute qualité avec
                 des fonctionnalités exclusives et un soutien dédié.
@@ -105,7 +107,8 @@ const ServiceLayout: React.FC = () => {
           </div>
         </div>
       </div>
-      <div><div className="flex flex-col md:flex-row items-center justify-center gap-8 py-12 md:py-20 mt-8">
+      <div>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 py-12 md:py-20 mt-8">
           <div className="flex-1 max-w-md h-full">
             <img
               alt="Service Image"
@@ -121,9 +124,12 @@ const ServiceLayout: React.FC = () => {
           </div>
           <div className="flex-1 space-y-6 max-w-md">
             <div className="space-y-4">
-              <h1 className="text-3xl font-bold text-orange-500">Soutien Scolaire</h1>
+              <h1 className="text-3xl font-bold text-orange-500">
+                Soutien Scolaire
+              </h1>
               <p className="text-gray-500 dark:text-gray-400 text-lg">
-              Bénéficiez d'un accompagnement sur mesure et de qualité pour la réussite scolaire de vos enfants.
+                Bénéficiez d'un accompagnement sur mesure et de qualité pour la
+                réussite scolaire de vos enfants.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-6">
@@ -135,7 +141,7 @@ const ServiceLayout: React.FC = () => {
                   </h3>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400 mt-2">
-                Des horaires adaptés à vos besoins.
+                  Des horaires adaptés à vos besoins.
                 </p>
               </div>
               <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
@@ -146,18 +152,18 @@ const ServiceLayout: React.FC = () => {
                   </h3>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400 mt-2">
-                Confidentialité des données garantie.
+                  Confidentialité des données garantie.
                 </p>
               </div>
               <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
                 <div className="flex items-center gap-3">
                   <h3 className="flex text-xl justify-center items-center gap-2 font-semibold">
                     <FaBookOpen className="w-5 h-5 text-green-500" />
-                    Assistance 
+                    Assistance
                   </h3>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400 mt-2">
-                Un support adapté à vos besoins.
+                  Un support adapté à vos besoins.
                 </p>
               </div>
               <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
@@ -168,12 +174,15 @@ const ServiceLayout: React.FC = () => {
                   </h3>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400 mt-2">
-                Des activités stimulantes pour apprendre.</p>
+                  Des activités stimulantes pour apprendre.
+                </p>
               </div>
             </div>
           </div>
-        </div></div>
-      <div><div className="flex flex-col md:flex-row items-center justify-center gap-8 py-12 md:py-20 mt-8">
+        </div>
+      </div>
+      <div>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 py-12 md:py-20 mt-8">
           <div className="flex-1 max-w-md h-full">
             <img
               alt="Service Image"
@@ -189,9 +198,12 @@ const ServiceLayout: React.FC = () => {
           </div>
           <div className="flex-1 space-y-6 max-w-md">
             <div className="space-y-4">
-              <h1 className="text-3xl font-bold text-orange-500">Aide à la Personne</h1>
+              <h1 className="text-3xl font-bold text-orange-500">
+                Aide à la Personne
+              </h1>
               <p className="text-gray-500 dark:text-gray-400 text-lg">
-              Profitez d'une assistance personnalisée et de qualité pour vos besoins quotidiens.
+                Profitez d'une assistance personnalisée et de qualité pour vos
+                besoins quotidiens.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-6">
@@ -203,7 +215,7 @@ const ServiceLayout: React.FC = () => {
                   </h3>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400 mt-2">
-                Des horaires adaptés à votre emploi du temps.
+                  Des horaires adaptés à votre emploi du temps.
                 </p>
               </div>
               <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
@@ -214,35 +226,37 @@ const ServiceLayout: React.FC = () => {
                   </h3>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400 mt-2">
-                Votre sécurité et votre bien-être sont notre priorité.
+                  Votre sécurité et votre bien-être sont notre priorité.
                 </p>
               </div>
               <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
                 <div className="flex items-center gap-3">
                   <h3 className="flex text-xl justify-center items-center gap-2 font-semibold">
                     <FaPersonCane className="w-6 h-6 text-green-500" />
-                    Soutien 
+                    Soutien
                   </h3>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400 mt-2">
-                Un accompagnement adapté à vos besoins spécifiques.
+                  Un accompagnement adapté à vos besoins spécifiques.
                 </p>
               </div>
               <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
                 <div className="flex items-center gap-3">
                   <h3 className="flex text-xl justify-center items-center gap-2 font-semibold">
                     <MdElderly className="w-7 h-7 text-orange-500" />
-                    Activités 
+                    Activités
                   </h3>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400 mt-2">
-                Des activités stimulantes pour votre bien-être.
+                  Des activités stimulantes pour votre bien-être.
                 </p>
               </div>
             </div>
           </div>
-        </div></div>
-      <div><div className="flex flex-col md:flex-row items-center justify-center gap-8 py-12 md:py-20 mt-8">
+        </div>
+      </div>
+      {/* <div>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 py-12 md:py-20 mt-8">
           <div className="flex-1 max-w-md h-full">
             <img
               alt="Service Image"
@@ -258,9 +272,12 @@ const ServiceLayout: React.FC = () => {
           </div>
           <div className="flex-1 space-y-6 max-w-md">
             <div className="space-y-4">
-              <h1 className="text-3xl font-bold text-orange-500">Service de Ménage</h1>
+              <h1 className="text-3xl font-bold text-orange-500">
+                Service de Ménage
+              </h1>
               <p className="text-gray-500 dark:text-gray-400 text-lg">
-              Profitez d'un nettoyage efficace et personnalisé pour votre espace.
+                Profitez d'un nettoyage efficace et personnalisé pour votre
+                espace.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-6">
@@ -272,7 +289,7 @@ const ServiceLayout: React.FC = () => {
                   </h3>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400 mt-2">
-                Des horaires adaptés à vos besoins de ménage.
+                  Des horaires adaptés à vos besoins de ménage.
                 </p>
               </div>
               <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
@@ -283,7 +300,7 @@ const ServiceLayout: React.FC = () => {
                   </h3>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400 mt-2">
-                Assurez la sécurité et la propreté de votre maison.
+                  Assurez la sécurité et la propreté de votre maison.
                 </p>
               </div>
               <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
@@ -294,7 +311,7 @@ const ServiceLayout: React.FC = () => {
                   </h3>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400 mt-2">
-                Un nettoyage méticuleux pour un environnement propre et sain.
+                  Un nettoyage méticuleux pour un environnement propre et sain.
                 </p>
               </div>
               <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
@@ -305,12 +322,13 @@ const ServiceLayout: React.FC = () => {
                   </h3>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400 mt-2">
-                Un nettoyage rapide et efficace pour plus de confort.
+                  Un nettoyage rapide et efficace pour plus de confort.
                 </p>
               </div>
             </div>
           </div>
-        </div></div>
+        </div>
+      </div> */}
     </Carousel>
   );
 };

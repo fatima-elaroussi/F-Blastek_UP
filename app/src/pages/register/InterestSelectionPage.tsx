@@ -13,7 +13,7 @@ function InterestSelectionPage() {
                 <div className="flex flex-wrap justify-center">
                     <InterestSelectionCard title={"Babysitting"} description={"Une baby-sitter, nounou"} nav={"/register/Client"} icon={babysitting} />
                     <InterestSelectionCard title={"Soutien scolaire"} description={"Une baby-sitter, nounou"} nav={"/register/client"} icon={soutien} />
-                    <InterestSelectionCard title={"Ménage"} description={"Une baby-sitter, nounou"} nav={"/register/client"} icon={menage} />
+                    {/* <InterestSelectionCard title={"Ménage"} description={"Une baby-sitter, nounou"} nav={"/register/client"} icon={menage} /> */}
                     <InterestSelectionCard title={"Aide aux dépendants"} description={"Une baby-sitter, nounou"} nav={"/register/client"} icon={aide} />
                     {/* <InterestSelectionCard title={"Babysitting"} description={"Une baby-sitter, nounou"} nav={"/register/client"} /> */}
                 </div>
